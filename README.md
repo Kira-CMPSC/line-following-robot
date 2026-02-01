@@ -11,9 +11,19 @@ Motor 2 Backward (mtrTwoL)	Digital Pin 7	Output
 Motor 1 Forward (mtrOneF)	Digital Pin 13	Output
 Motor 1 Backward (mtrOneL)	Digital Pin 12	Output
 
+Skills Learned:
+Arduino Programming: Writing and debugging code to control motors and read sensors.
+Circuit Design: Connecting IR sensors, motors, and an H-bridge to the Arduino correctly.
+Sensor Integration: Using IR sensors to detect lines and convert sensor signals into motor commands.
+Motor Control: Controlling DC motors with PWM signals and direction pins for smooth movement.
+Soldering: Assembling and securing electronic components on a circuit board for reliable connections.
+Problem Solving: Debugging sensor inputs and motor behavior to make the robot follow the line reliably.
+Project Documentation: Writing clear README files and organizing code and schematics for others to use.
+Basic Robotics: Understanding fundamentals of autonomous robot movement and control logic.
+
 How It Works:
 The robot uses two IR sensors to detect the line.
-Sensor reading LOW means the sensor is over the black line.
+A LOW sensor reading means the sensor is over the black line.
 Sensor reading HIGH means the sensor is over the white surface (no line).
 The Arduino reads the sensors continuously and decides how to move:
 Go Straight: Both sensors detect the line (LOW).
